@@ -1,0 +1,12 @@
+websites to go:
+PYTHON (most important): https://www.python.org/downloads/
+vsc: https://visualstudio.microsoft.com/downloads/
+cuda 11.7: https://developer.nvidia.com/cuda-11-7-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local
+- [pytorch](https://pytorch.org) 
+- [numpy](https://numpy.org/install/) 
+- `pip install transformers` for huggingface transformers  (to load GPT-2 checkpoints)
+- `pip install datasets` for huggingface datasets  (if you want to download + preprocess OpenWebText)
+- `pip install tiktoken` for OpenAI's fast BPE code 
+- `pip install wandb` for optional logging 
+- `pip install tqdm` 
+py -m ensurepip --upgrade (if no pip installed)
